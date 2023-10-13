@@ -84,7 +84,7 @@ nav a:hover {
 	margin: 0 auto;
 	padding: 50px 0;
     Justify-content: center; 
-    align-items: center; 
+    align-items: center;
     display: flex;
 }
 
@@ -115,12 +115,14 @@ nav a:hover {
 	margin-top: 10px;
 }
 
+/*CSS da página de Contato*/
+
 .formulario {
     display: flex;
     justify-content: center;
 }
 
-/*CSS da página de Contato*/
+
 
 form {
 	margin: 40px;
@@ -220,4 +222,9 @@ fieldset {
 		max-width: 350px;
 	}
 
+
+	.produtos li {
+		display: block;
+		padding: 30px 150px;
+	}
 }
