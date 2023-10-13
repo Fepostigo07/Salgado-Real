@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Salgado Real</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="caixa">
+
+            <h1>
+                <img src="Imagens/logo.png" alt="Logo da Salgado Real">
+            </h1>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="produtos.html">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="descricao">
+            <h2>Nosso Contato</h2>
+                <p>Para entrar em contato conosco na Salgado Real, basta preencher o formulário abaixo, enviar um e-mail ou ligar para nós. Estamos à disposição para atender às suas necessidades e responder a quaisquer perguntas que possa ter sobre nossos produtos e serviços. Esperamos poder ajudá-lo em breve.</p>
+        </section>
+        <section class="formulario">
+            <form>
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea id="mensagem" class="input-padrao" cols="70" rows="10" required></textarea>
+
+				<fieldset>
+					<legend>Como prefere nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+
+					<label for="radio-telefone"><input type="radio" value="telefone" name="contato" id="radio-telefone"> Telefone</label>
+					
+
+					<label for="Radio-Whatsapp"><input type="radio" name="contato" value="Whatsapp" id="Radio-Whatsapp" checked> Whatsapp</label>	
+				</fieldset>
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+				<input type="submit" value="Enviar Formulário" class="enviar">
+			</form>
+        </section>
+        <section class="rede">
+            <h2>Nossas Redes Sociais</h2>
+            <ul>
+                <li>
+                    <a href="https://www.whatsapp.com/" target="_blank">
+                        <img src="imagens/logozap.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="Imagens/logoinsta.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/?lang=pt-br" target="_blank">
+                        <img src="Imagens/logox.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
